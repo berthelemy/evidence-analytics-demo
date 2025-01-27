@@ -1,0 +1,5 @@
+# This file was automatically generated
+name: Learning
+type: sqlite
+options:
+  filename: learning.db

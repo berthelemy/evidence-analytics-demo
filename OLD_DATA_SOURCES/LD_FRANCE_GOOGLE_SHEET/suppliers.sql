@@ -1,0 +1,1 @@
+select * from LD_FRANCE_GOOGLE_SHEET.LTFrance-suppliers_Sheet1
