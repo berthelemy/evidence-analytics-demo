@@ -167,7 +167,7 @@ from Learning.DimPeople
 
 </Grid>
 
-Our primary target group is those on lower-middle incomes, from lower-middle income level countries.
+Our primary target group is those from lower-middle income level countries.
 
 Select the income levels dropdown to see explore more about the people we work with.
 
