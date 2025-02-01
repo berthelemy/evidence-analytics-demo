@@ -1,0 +1,1 @@
+select * from input_lobbying

@@ -1,94 +1,46 @@
 ---
-title: Human Transport Data Dashboard
-sidebar_link: false
+title: Mockup Data Dashboard
+sidebar_link: true
+sidebar_position: 1
+full_width: false
+queries:
+  - sample_data: sample_data.sql
+  - count_locations: count_locations.sql
 ---
 {@partial "alert.md"}
 
-This page provides summary data. For more detail click through to the relevant pages.
+{@partial "sources.md"}
 
-
-```sql projects
-select * from Learning.DimProjects
-```
-
-```sql count_projects_by_country
+```sql running_total_expenditure
 select
-    count(project_name) AS count
-    , project_country_code
-from Learning.DimProjects
-group by project_country_code
+  sum(quantity) as total
+from CSV.sample_data2
+where item_type = 'expenditure'
+
 ```
 
-```sql count_projects
-select
-    count(project_name) AS count
-from Learning.DimProjects
-```
 
-```sql count_people
-select
-    count(id) AS count
-from Learning.DimPeople
-```
+Human Transport are the world's leading not-for-profit focussed on the human-powered transport sector.
 
-```sql count_locations
-select
-    count(distinct(location_id)) AS count
-from Learning.DimProjects
-```
+With **<Value description="Each centre is a base from which we provide training, sales and advice, and carry out research and lobbying." data={count_locations} />** centres in major cities throughout the world, we provide practical assistance and policy lobbying to encourage more use of human-powered transport. Since beginning our work, we have spent around **<Value fmt="usd" data="{running_total_expenditure}" Column="total"/>** - leading to [significant improvements](/impact) in air quality, health and carbon emissions.
 
-```sql count_products
-select
-    count(ID) AS count
-from Learning.DimProducts
-```
-<Grid cols="3">
-<Image 
-    url="/beijing-3675892_1280.jpg"
-    description="Bicycle"
-/>
-<BigValue
-  title='Active projects'
-  data={count_projects} 
-  value=count
-  link='/projects'
-/>
+Our work is defined and measured according to our [Theory of Change](/theory-of-change). This is constantly updated as we learn more and adjust what we do to maximise our impact.
 
-<BigValue
-  title='Number of people'
-  data={count_people} 
-  value=count
-  link='/people'
-  fmt=num0
-/>
+The theory of change is based on a simple model:
 
-<BigValue
-  title='Project locations'
-  data={count_locations} 
-  value=count
-  link='/projects'
-/>
+<Alert status="info">
+<p align="center"><strong>Activities</strong> --> <strong>Outputs</strong> --> <strong>Impact</strong></p>
+</Alert>
 
-<BigValue
-  title='Digital products'
-  data={count_products} 
-  value=count
-  link='/products'
-/>
+Obviously, the most important of these is impact... This is what we are aiming towards. Our intent is that our activities will deliver measurable outputs that lead to lasting impact.
 
+This dashboard provides indicators so you can see how we are doing on each of these elements.
 
-</Grid>
+Take a look at each section for the numbers and the story behind those numbers.
 
-<Grid cols="2">
+<Image
+  url="beijing-3675892_1280.jpg"
+  description="Battered tricyle on a city street"
+  />
 
-<BigLink href="/people">
-    Who do we work with?
-</BigLink>
-
-<BigLink href="/projects">
-    What do we do?
-</BigLink>
-
-
-</Grid>
 

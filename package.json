@@ -1,5 +1,5 @@
 {
-  "name": "demo_evidencep_project",
+  "name": "demo_evidence_project",
   "version": "0.0.1",
   "scripts": {
     "build": "evidence build",

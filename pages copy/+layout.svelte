@@ -7,15 +7,7 @@
 	export let data;
 </script>
 
-<style>
-	:global(p a) {
-		/* applies to <body> */
-		
-		text-decoration: underline;
-	}
-  </style>
-
-<EvidenceDefaultLayout {data} title="Mockup data dashboard" builtWithEvidence="true">
+<EvidenceDefaultLayout {data} title="Human Transport" builtWithEvidence="true">
 	<p>TEST</p>
 	<slot slot="content" />
 </EvidenceDefaultLayout>
