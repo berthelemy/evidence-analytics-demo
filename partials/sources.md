@@ -16,7 +16,12 @@ select
     table_name
 from information_schema.tables
 ```
-    
+
+```sql lastUpdated
+    SELECT lastUpdatedDate from Learning.updateTime
+```
+
+<span class="text-xs text-gray-500 italic">Last updated on: <Value data={lastUpdated} fmt="tsminute"/></span>
 </Details>
 
 ---

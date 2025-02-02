@@ -233,14 +233,15 @@ group by education
         tooltip: {
             formatter: '{b}: {d}%'
         },
-        label: {
-          position: 'inside'
-        },
+        
         series: [
         {
           name: 'Gender',
           type: 'pie',
-          data: [...gender_groups]
+          data: [...gender_groups],
+          label: {
+          position: 'inside'
+          },
         }
       ]
       }
@@ -253,9 +254,6 @@ group by education
             text: 'Education levels'},
         tooltip: {
             formatter: '{b}: {d}%'
-        },
-        label: {
-          position: 'inside'
         },
         series: [
         {

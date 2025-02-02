@@ -1,6 +1,6 @@
 ---
 title: Digital Learning Products
-sidebar_link: true
+sidebar_link: false
 sidebar_position: 5
 ---
 {@partial "alert.md"}

@@ -1,7 +1,7 @@
 ---
 title: Training courses
 sidebar_position: 3
-sidebar_link: true
+sidebar_link: false
 queries:
   - courses: courses.sql
 ---

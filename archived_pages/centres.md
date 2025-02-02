@@ -1,7 +1,7 @@
 ---
 title: Local centres
 sidebar_position: 3
-sidebar_link: true
+sidebar_link: false
 queries:
   - visits: visits.sql
 ---

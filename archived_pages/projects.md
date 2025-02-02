@@ -1,7 +1,7 @@
 ---
 title: Projects
 sidebar_position: 4
-sidebar_link: true
+sidebar_link: false
 ---
 {@partial "alert.md"}
 

@@ -1,7 +1,7 @@
 ---
 title: People we work with
 sidebar_position: 2
-sidebar_link: true
+sidebar_link: false
 ---
 {@partial "alert.md"}
 
