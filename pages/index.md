@@ -34,7 +34,7 @@ Our work is defined and measured according to our [Theory of Change](/theory-of-
 The theory of change is based on a simple model:
 
 <Alert status="info">
-<p align="center"><strong>Activities</strong> --> <strong>Outputs</strong> --> <strong>Impact</strong></p>
+<p align="center"><strong><a href="/activities">Activities</a></strong> --> <strong><a href="/outputs">Outputs</a></strong> --> <strong><a href="impact">Impact</a></strong></p>
 </Alert>
 
 Obviously, the most important of these is impact... This is what we are aiming towards. Our intent is that our activities will deliver measurable outputs that lead to lasting impact.

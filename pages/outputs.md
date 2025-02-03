@@ -9,6 +9,8 @@ queries:
 
 {@partial "sources.md"}
 
+In our [Theory of Change](/theory-of-change), we describe the outputs from our [Activities](/activities). The primary one is the number of bike journeys.
+
 ```sql bike_journeys
 select
   date

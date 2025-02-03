@@ -9,7 +9,13 @@ queries:
 
 {@partial "sources.md"}
 
-### Impact
+Our organisation exists to make an impact primarily on health and climate.
+
+Each of our [Activities](/activities) is designed to create [Outputs](/outputs) that support this impact.
+
+The measurements below indicate the changes that have occurred over the course of our work.
+
+(NB. We are aiming for more longitudinal data, able to be filtered by location)
 
 ```sql impact
 select
