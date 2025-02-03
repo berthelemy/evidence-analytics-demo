@@ -11,6 +11,16 @@ queries:
 
 {@partial "sources.md"}
 
+In our [Theory of Change](/theory-of-change), we list out the activities we do around the world:
+
+- Research & lobbying
+- Advice & support
+- Bike repair training
+- Bike and parts sales
+- Bike repairs
+
+The data below shows **some** indicators from these activities.
+
 ```sql sample_data2
 select * from CSV.sample_data2
 order by measurement_date DESC
