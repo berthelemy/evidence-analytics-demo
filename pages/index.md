@@ -6,6 +6,11 @@ full_width: false
 queries:
   - sample_data: sample_data.sql
   - count_locations: count_locations.sql
+og:
+  title: Theory of Change / Return on Investment
+  description: A mockup dashboard showing one way of measuring activities, outputs and impact - supporting an organisational Theory of Change - using the Evidence.dev platform
+  image: '/evidence-image.png'
+
 ---
 {@partial "alert.md"}
 
